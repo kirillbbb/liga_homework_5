@@ -7,3 +7,5 @@
 ```bash
 npm i
 npm run build
+открыть index.html
+F12 → Console
