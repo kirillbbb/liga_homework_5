@@ -23,7 +23,7 @@ abstract class FetchClient {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
 
-    return response.json() as Promise<T>;
+    return (await response.json()) as T;
   }
 }
 
