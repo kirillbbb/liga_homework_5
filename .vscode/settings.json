@@ -6,10 +6,5 @@
   },
   "css.validate": false,
   "scss.validate": false,
-  "stylelint.validate": [
-    "css",
-    "scss",
-    "typescript",
-    "typescriptreact"
-  ]
+  "stylelint.validate": ["css", "scss", "typescript", "typescriptreact"]
 }
